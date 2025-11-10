@@ -1,0 +1,67 @@
+/*reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* les classe fontionnelle flex*/
+.flex {
+
+display: flex;
+
+flex-wrap:wrap; }
+.space-between {
+justify-content: space-between
+}
+.space-around {
+justify-content: space-arounde
+}
+
+.justify-center {
+justIfy-content: center;
+}
+
+.flex-end{
+justIfy-content: flex-end
+}
+
+.flex-start {
+justify-content: flex-start;
+}
+
+/*alignement en vertical*/
+
+.align-center {
+
+align-items:center;
+}
+
+.align-end {
+align-items:end
+}
+
+/* gap */
+.gap-12{
+gap:12px;
+}
+
+/* classe de largeur */
+ 
+.w-100{
+    width: -100%;
+}
+.w-48{
+    width: 48%;
+}
+.w-33{
+    width: 33%;
+}
+
+
+
+
+
+
+
+
+

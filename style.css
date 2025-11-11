@@ -5,21 +5,18 @@
     margin: 0;
 }
 /* les classe fontionnelle flex*/
-.flex {
-
 
 .andada-pro{
   font-family: "Andada Pro", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
 
 
-.display: flex;
 
-flex-wrap:wrap; }
+
 .space-between {
 justify-content: space-between
 }
@@ -57,16 +54,6 @@ gap:12px;
 
 /* classe de largeur */
  
-.w-100{
-    width: -100%;
-}
-.w-48{
-    width: 48%;
-}
-.w-33{
-    width: 33%;
-}
-
 
 a {
     text-decoration: none;
@@ -143,6 +130,10 @@ h2 {
     width: 25%;
 }
 
+.w-40{
+    width: 40%;
+}
+
 .logo {
     width: 100px;
 }
@@ -184,10 +175,68 @@ h1 {
 }
 
 
-.bg{
+.bgred{
     color: red;
 }
 
 .bg{
     color: blue;
 }
+
+.liste-style{
+    list-style: none;
+}
+
+.font-size{
+    font-size: 18px;
+}
+
+
+.banniere {
+    height: 100vh; 
+    background-image: url("asset/banniere.jpg"); 
+    background-size: cover;
+    background-position: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+    
+    position: relative;
+}
+
+.dawn{
+    color: white;
+}
+
+
+.font{
+    color: gold;
+    font-size: 20px;
+}
+
+.margintop{
+    margin-top: 100px;
+}
+
+.or{
+    color: gold;
+}
+
+.mntn {
+    position: relative;
+    width: 1920px;
+    height: 4000px;
+    background: #0B1D26;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
+}
+
+.texte{
+    color: white;
+}
+
+
+
+
+
+

@@ -12,11 +12,9 @@
   font-weight: weight;
   font-style: normal;
 }
-
-
-
-
-
+.leter{
+    letter-spacing: 8px;
+}
 .space-between {
 justify-content: space-between
 }
@@ -61,7 +59,12 @@ a {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 18px;
+    color: gold;
+}
+
+h3{
+    font-size: 40px;
 }
 
 .btn {
@@ -164,10 +167,7 @@ header {
 
 }
 
-h1 {
-    margin-bottom: 20px;
-    font-size: 45px;
-}
+
 
 .section-hero div p{
     margin-bottom: 50px;
@@ -210,10 +210,7 @@ h1 {
 }
 
 
-.font{
-    color: gold;
-    font-size: 20px;
-}
+
 
 .margintop{
     margin-top: 100px;
@@ -224,11 +221,8 @@ h1 {
 }
 
 .mntn {
-    position: relative;
-    width: 1920px;
-    height: 4000px;
-    background: #0B1D26;
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
+  
+    background-color: #0B1D26;
 }
 
 .texte{
@@ -236,7 +230,22 @@ h1 {
 }
 
 
+.zero{
+   
+position:absolute;
+opacity: 0.20;
+font-size: 200px;
+top: -136px;
+    right: 240px;
 
 
+}
 
-
+.luffy{
+    position:relative;
+}
+.trait{
+    width: 70px;
+    height: 4px;
+    background-color: gold;
+}
